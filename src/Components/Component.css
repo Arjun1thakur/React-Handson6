@@ -1,0 +1,50 @@
+.nav,.foam{
+    width: 90%;
+    margin: 10px auto 0px auto;
+    padding: 15px;
+    border-radius: 10px;
+    justify-content: space-around;
+    font-size: 2rem;
+}
+.link{
+    color: white;
+    text-decoration: none;
+    padding: 5px 30px;
+    border-radius: 10px;
+}
+.link:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: background-color .5s;
+    color: brown;
+
+}
+.foam{
+    height: 70vh;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+}
+
+.input{
+    all: unset;
+    color: white;
+    position: relative;
+    width: 100%;
+    height: 8vh;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px white;
+    text-align: center;
+}
+.input::after{
+    content: 'Name';
+    width: 100px;
+    height: 200px;
+    /* color: #000; */
+    position: absolute;
+    font-size: 2rem;
+    top: 20px;
+}
+.e{
+    position: absolute;
+    right: 100px;
+    bottom: 30px;
+}
